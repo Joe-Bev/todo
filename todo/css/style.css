@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  width: 100%;
+  background: #ededed;
+  box-sizing: border-box;
+}
+
+div, ul, li, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*=========== TOP BAR TASK ADDING ===========*/
+
+.top-bar {
+  width: 100%;
+  height: 80px;
+  background: #00c687;
+  padding: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.top-bar-inner {
+  height: 80px;
+}
+
+.add-text {
+  width: 100%;
+  height: 40px;
+  text-indent: 10px;
+  color: #fff;
+  background: #03a572;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 5px;
+  border: 0;
+  outline: 0px;
+}
+
+.add-text:placeholder {
+  color: #fff;
+}
+
+.add-button {
+  position: absolute;
+  top: 21px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  background: #fff;
+  outline: 0px;
+}
+
+/*=========== TOP BAR TASK ADDING ===========*/
+
+.todo-list {
+  padding: 0 0 0 0;
+  margin: 30px 0 0 0;
+}
+
+.todo-item {
+  margin: 0 0 10px 45px;
+  padding: 10px;
+  height: 38px;
+  width: 90%;
+  background-color: #fff;
+  list-style: none;
+  border-radius: 10px;
+}
+
+.todo-item p {
+  float: left;
+}
+
+.fas.fa-check {
+    float: right;
+    padding-right: 10px;
+}
+.fas.fa-check:hover {
+    color: #3DC78A;
+}
+
+.fas.fa-trash-alt {
+    float: right;
+    padding-right: 10px;
+}
+.fas.fa-trash-alt:hover {
+    color: #f23232;
+}
